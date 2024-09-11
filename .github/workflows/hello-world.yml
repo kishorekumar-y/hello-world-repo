@@ -1,0 +1,6 @@
+name: Hello World
+on: push
+jobs:
+  hello-job:
+     runs-on: ubuntu-latest
+     run: echo "hello world"
